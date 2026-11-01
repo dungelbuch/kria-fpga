@@ -77,11 +77,14 @@ fi
 echo "Adding environment paths to ~/.bashrc..."
 VIVADO_SETTING="source $INSTALL_DIR/Vivado/settings64.sh"
 VITIS_SETTING="source $INSTALL_DIR/Vitis/settings64.sh"
+# Write the journal and log to /tmp instead of the directory Vivado is started from
+VIVADO_ALIAS="alias vivado='vivado -journal /tmp/vivado.jou -log /tmp/vivado.log'"
 
 grep -qF "$VIVADO_SETTING" ~/.bashrc || echo "$VIVADO_SETTING" >> ~/.bashrc
 if [ -f "$INSTALL_DIR/Vitis/settings64.sh" ]; then
     grep -qF "$VITIS_SETTING" ~/.bashrc || echo "$VITIS_SETTING" >> ~/.bashrc
 fi
+grep -qF "$VIVADO_ALIAS" ~/.bashrc || echo "$VIVADO_ALIAS" >> ~/.bashrc
 
 # Info Box for the user
 echo "====================================================================="
@@ -92,10 +95,11 @@ echo " your ~/.bashrc file. They will load the next time you open a new terminal
 echo ""
 echo " IMPORTANT NOTE FOR OTHER SHELLS:"
 echo " If you use a different shell (like zsh, fish, etc.), you must manually"
-echo " add these source lines to your shell's configuration file (e.g., ~/.zshrc):"
+echo " add these lines to your shell's configuration file (e.g., ~/.zshrc):"
 echo ""
 echo "   $VIVADO_SETTING"
 echo "   $VITIS_SETTING"
+echo "   $VIVADO_ALIAS"
 echo "====================================================================="
 
 echo "Installation completed successfully!"

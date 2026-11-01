@@ -134,7 +134,9 @@ and add the core to `SIM_CORES`. See the core's README for what its testbench ch
 packages, runs the 2025.2 installer in batch mode with
 [install/install_config.txt](install/install_config.txt) (Vitis Unified with
 Zynq UltraScale+ MPSoC and Kria device support, installed to `/tools/Xilinx`),
-installs the cable drivers and adds the Vivado/Vitis settings to `~/.bashrc`.
+installs the cable drivers and adds the Vivado/Vitis settings to `~/.bashrc`,
+along with an alias that makes Vivado write `vivado.jou` and `vivado.log` to
+`/tmp` instead of the current directory.
 It uses sudo:
 
 ```
