@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="axis_lia_iir_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="axis_lia_iir_tb" />
+            <top_module name="tb_utils_pkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="51000001fs"></ZoomEndTime>
+      <Cursor1Time time="8956000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="103"></NameColumnWidth>
+      <ValueColumnWidth column_width="68"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="39" />
+   <wvobject type="array" fp_name="/axis_lia_iir_tb/rstn">
+      <obj_property name="ElementShortName">rstn[0:0]</obj_property>
+      <obj_property name="ObjectShortName">rstn[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/axis_lia_iir_tb/aclk">
+      <obj_property name="ElementShortName">aclk</obj_property>
+      <obj_property name="ObjectShortName">aclk</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/axis_lia_iir_tb/testcase">
+      <obj_property name="ElementShortName">testcase</obj_property>
+      <obj_property name="ObjectShortName">testcase</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/axis_lia_iir_tb/rstn">
+      <obj_property name="ElementShortName">rstn[0:0]</obj_property>
+      <obj_property name="ObjectShortName">rstn[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/axis_lia_iir_tb/IIR/s_axis_i_tdata">
+      <obj_property name="ElementShortName">s_axis_i_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_i_tdata[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/axis_lia_iir_tb/s_axis_i_tvalid">
+      <obj_property name="ElementShortName">s_axis_i_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axis_i_tvalid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/axis_lia_iir_tb/IIR/s_axis_q_tdata">
+      <obj_property name="ElementShortName">s_axis_q_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_q_tdata[31:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">2</obj_property>
+      <obj_property name="radix_otherWidth">1</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+      <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_LINEAR</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/axis_lia_iir_tb/s_axis_q_tvalid">
+      <obj_property name="ElementShortName">s_axis_q_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axis_q_tvalid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/axis_lia_iir_tb/IIR/m_axis_tdata">
+      <obj_property name="ElementShortName">m_axis_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tdata[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/axis_lia_iir_tb/IIR/m_axis_tvalid">
+      <obj_property name="ElementShortName">m_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/axis_lia_iir_tb/IIR/i_out">
+      <obj_property name="ElementShortName">i_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i_out[31:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/axis_lia_iir_tb/IIR/q_out">
+      <obj_property name="ElementShortName">q_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">q_out[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group175">
+      <obj_property name="label">iir_in_out_digital</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/axis_lia_iir_tb/IIR/s_axis_i_tdata">
+         <obj_property name="ElementShortName">s_axis_i_tdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axis_i_tdata[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axis_lia_iir_tb/s_axis_i_tvalid">
+         <obj_property name="ElementShortName">s_axis_i_tvalid</obj_property>
+         <obj_property name="ObjectShortName">s_axis_i_tvalid</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/axis_lia_iir_tb/IIR/s_axis_q_tdata">
+         <obj_property name="ElementShortName">s_axis_q_tdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axis_q_tdata[31:0]</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axis_lia_iir_tb/s_axis_q_tvalid">
+         <obj_property name="ElementShortName">s_axis_q_tvalid</obj_property>
+         <obj_property name="ObjectShortName">s_axis_q_tvalid</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/axis_lia_iir_tb/IIR/i_out">
+         <obj_property name="ElementShortName">i_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">i_out[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/axis_lia_iir_tb/IIR/q_out">
+         <obj_property name="ElementShortName">q_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">q_out[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/axis_lia_iir_tb/IIR/m_axis_tdata">
+         <obj_property name="ElementShortName">m_axis_tdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_tdata[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axis_lia_iir_tb/IIR/m_axis_tvalid">
+         <obj_property name="ElementShortName">m_axis_tvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axis_tvalid</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group89">
+      <obj_property name="label">tvalid_delay_sos_0</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/axis_lia_iir_tb/IIR/\GEN_I_FILT(0)\/I_SOS/s_axis_tdata">
+         <obj_property name="ElementShortName">s_axis_tdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axis_tdata[31:0]</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axis_lia_iir_tb/IIR/\GEN_I_FILT(0)\/I_SOS/s_axis_tvalid">
+         <obj_property name="ElementShortName">s_axis_tvalid</obj_property>
+         <obj_property name="ObjectShortName">s_axis_tvalid</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/axis_lia_iir_tb/IIR/\GEN_I_FILT(0)\/I_SOS/m_tdata">
+         <obj_property name="ElementShortName">m_tdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_tdata[31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axis_lia_iir_tb/IIR/\GEN_I_FILT(0)\/I_SOS/m_tvalid">
+         <obj_property name="ElementShortName">m_tvalid</obj_property>
+         <obj_property name="ObjectShortName">m_tvalid</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/axis_lia_iir_tb/IIR/\GEN_I_FILT(0)\/I_SOS/tvalid_shift_reg">
+         <obj_property name="ElementShortName">tvalid_shift_reg[3:0]</obj_property>
+         <obj_property name="ObjectShortName">tvalid_shift_reg[3:0]</obj_property>
+         <obj_property name="CustomSignalColor">#00FF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group182">
+      <obj_property name="label">tvalid_delay_sos_1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/axis_lia_iir_tb/IIR/\GEN_I_FILT(1)\/I_SOS/s_axis_tdata">
+         <obj_property name="ElementShortName">s_axis_tdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axis_tdata[31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axis_lia_iir_tb/IIR/\GEN_I_FILT(1)\/I_SOS/s_axis_tvalid">
+         <obj_property name="ElementShortName">s_axis_tvalid</obj_property>
+         <obj_property name="ObjectShortName">s_axis_tvalid</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/axis_lia_iir_tb/IIR/\GEN_I_FILT(1)\/I_SOS/m_tdata">
+         <obj_property name="ElementShortName">m_tdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_tdata[31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axis_lia_iir_tb/IIR/\GEN_I_FILT(1)\/I_SOS/m_tvalid">
+         <obj_property name="ElementShortName">m_tvalid</obj_property>
+         <obj_property name="ObjectShortName">m_tvalid</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/axis_lia_iir_tb/IIR/\GEN_I_FILT(1)\/I_SOS/tvalid_shift_reg">
+         <obj_property name="ElementShortName">tvalid_shift_reg[3:0]</obj_property>
+         <obj_property name="ObjectShortName">tvalid_shift_reg[3:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group188">
+      <obj_property name="label">tvalid_delay_sos_2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/axis_lia_iir_tb/IIR/\GEN_I_FILT(2)\/I_SOS/s_axis_tdata">
+         <obj_property name="ElementShortName">s_axis_tdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axis_tdata[31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axis_lia_iir_tb/IIR/\GEN_I_FILT(2)\/I_SOS/s_axis_tvalid">
+         <obj_property name="ElementShortName">s_axis_tvalid</obj_property>
+         <obj_property name="ObjectShortName">s_axis_tvalid</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/axis_lia_iir_tb/IIR/\GEN_I_FILT(2)\/I_SOS/m_tdata">
+         <obj_property name="ElementShortName">m_tdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_tdata[31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axis_lia_iir_tb/IIR/\GEN_I_FILT(2)\/I_SOS/m_tvalid">
+         <obj_property name="ElementShortName">m_tvalid</obj_property>
+         <obj_property name="ObjectShortName">m_tvalid</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/axis_lia_iir_tb/IIR/\GEN_I_FILT(2)\/I_SOS/tvalid_shift_reg">
+         <obj_property name="ElementShortName">tvalid_shift_reg[3:0]</obj_property>
+         <obj_property name="ObjectShortName">tvalid_shift_reg[3:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="divider158" type="divider">
+      <obj_property name="label">I_FILT-SOS-0</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#00FF7F</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/axis_lia_iir_tb/IIR/\GEN_I_FILT(0)\/I_SOS/b0">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">b0[24:0]</obj_property>
+      <obj_property name="ObjectShortName">b0[24:0]</obj_property>
+      <obj_property name="label">b0 - COEFF_0</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/axis_lia_iir_tb/IIR/\GEN_I_FILT(0)\/I_SOS/b1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">b1[24:0]</obj_property>
+      <obj_property name="ObjectShortName">b1[24:0]</obj_property>
+      <obj_property name="label">b1 - COEFF_1</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/axis_lia_iir_tb/IIR/\GEN_I_FILT(0)\/I_SOS/b2">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">b2[24:0]</obj_property>
+      <obj_property name="ObjectShortName">b2[24:0]</obj_property>
+      <obj_property name="label">b2 - COEFF_2</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/axis_lia_iir_tb/IIR/\GEN_I_FILT(0)\/I_SOS/a1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">a1[24:0]</obj_property>
+      <obj_property name="ObjectShortName">a1[24:0]</obj_property>
+      <obj_property name="label">a1 - COEFF_4</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/axis_lia_iir_tb/IIR/\GEN_I_FILT(0)\/I_SOS/a2">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">a2[24:0]</obj_property>
+      <obj_property name="ObjectShortName">a2[24:0]</obj_property>
+      <obj_property name="label">a2 - COEFF_5</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/axis_lia_iir_tb/IIR/\GEN_I_FILT(0)\/I_SOS/s_axis_tdata">
+      <obj_property name="ElementShortName">s_axis_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tdata[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/axis_lia_iir_tb/IIR/\GEN_I_FILT(0)\/I_SOS/s_axis_tvalid">
+      <obj_property name="ElementShortName">s_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/axis_lia_iir_tb/IIR/\GEN_I_FILT(0)\/I_SOS/input[0]">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[0][31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FF7F</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="label">Input-0</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/axis_lia_iir_tb/IIR/\GEN_I_FILT(0)\/I_SOS/input[1]">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[1][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FF7F</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="label">Input-1</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/axis_lia_iir_tb/IIR/\GEN_I_FILT(0)\/I_SOS/input[2]">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[2][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FF7F</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="label">Input-2</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/axis_lia_iir_tb/IIR/\GEN_I_FILT(0)\/I_SOS/output">
+      <obj_property name="ElementShortName">output[0:1][31:0]</obj_property>
+      <obj_property name="ObjectShortName">output[0:1][31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FF7F</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/axis_lia_iir_tb/IIR/\GEN_I_FILT(0)\/I_SOS/mult_b0">
+      <obj_property name="ElementShortName">mult_b0[56:0]</obj_property>
+      <obj_property name="ObjectShortName">mult_b0[56:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/axis_lia_iir_tb/IIR/\GEN_I_FILT(0)\/I_SOS/mult_b1">
+      <obj_property name="ElementShortName">mult_b1[56:0]</obj_property>
+      <obj_property name="ObjectShortName">mult_b1[56:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/axis_lia_iir_tb/IIR/\GEN_I_FILT(0)\/I_SOS/mult_b2">
+      <obj_property name="ElementShortName">mult_b2[56:0]</obj_property>
+      <obj_property name="ObjectShortName">mult_b2[56:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/axis_lia_iir_tb/IIR/\GEN_I_FILT(0)\/I_SOS/res_acc_b">
+      <obj_property name="ElementShortName">res_acc_b[58:0]</obj_property>
+      <obj_property name="ObjectShortName">res_acc_b[58:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/axis_lia_iir_tb/IIR/\GEN_I_FILT(0)\/I_SOS/mult_a1">
+      <obj_property name="ElementShortName">mult_a1[56:0]</obj_property>
+      <obj_property name="ObjectShortName">mult_a1[56:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/axis_lia_iir_tb/IIR/\GEN_I_FILT(0)\/I_SOS/mult_a2">
+      <obj_property name="ElementShortName">mult_a2[56:0]</obj_property>
+      <obj_property name="ObjectShortName">mult_a2[56:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/axis_lia_iir_tb/IIR/\GEN_I_FILT(0)\/I_SOS/res_acc_a">
+      <obj_property name="ElementShortName">res_acc_a[57:0]</obj_property>
+      <obj_property name="ObjectShortName">res_acc_a[57:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/axis_lia_iir_tb/IIR/\GEN_I_FILT(0)\/I_SOS/res_int">
+      <obj_property name="ElementShortName">res_int[59:0]</obj_property>
+      <obj_property name="ObjectShortName">res_int[59:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/axis_lia_iir_tb/IIR/\GEN_I_FILT(0)\/I_SOS/res_out">
+      <obj_property name="ElementShortName">res_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">res_out[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/axis_lia_iir_tb/IIR/\GEN_I_FILT(0)\/I_SOS/m_tdata">
+      <obj_property name="ElementShortName">m_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_tdata[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/axis_lia_iir_tb/IIR/\GEN_I_FILT(0)\/I_SOS/m_tvalid">
+      <obj_property name="ElementShortName">m_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m_tvalid</obj_property>
+   </wvobject>
+</wave_config>

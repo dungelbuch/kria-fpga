@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="axis_test_pattern_generator_v2_0_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="axi_bram_ctrl_funcs" />
+            <top_module name="axis_test_pattern_generator_v2_0_tb" />
+            <top_module name="glbl" />
+            <top_module name="tb_utils_pkg" />
+            <top_module name="tools_pkg" />
+            <top_module name="vcomponents" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="291.318 ns"></ZoomEndTime>
+      <Cursor1Time time="1,544,224.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="246"></NameColumnWidth>
+      <ValueColumnWidth column_width="76"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="9" />
+   <wvobject type="logic" fp_name="/axis_test_pattern_generator_v2_0_tb/DUT/aclk">
+      <obj_property name="ElementShortName">aclk</obj_property>
+      <obj_property name="ObjectShortName">aclk</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/axis_test_pattern_generator_v2_0_tb/DUT/rstn">
+      <obj_property name="ElementShortName">rstn[0:0]</obj_property>
+      <obj_property name="ObjectShortName">rstn[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/axis_test_pattern_generator_v2_0_tb/testcase">
+      <obj_property name="ElementShortName">testcase</obj_property>
+      <obj_property name="ObjectShortName">testcase</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group19">
+      <obj_property name="label">Registers</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/axis_test_pattern_generator_v2_0_tb/DUT/AXI_SLAVE_REGS/sample_delay">
+         <obj_property name="ElementShortName">sample_delay[31:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_delay[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/axis_test_pattern_generator_v2_0_tb/DUT/AXI_SLAVE_REGS/cnt_max_value">
+         <obj_property name="ElementShortName">cnt_max_value[31:0]</obj_property>
+         <obj_property name="ObjectShortName">cnt_max_value[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/axis_test_pattern_generator_v2_0_tb/DUT/AXI_SLAVE_REGS/max_samples">
+         <obj_property name="ElementShortName">max_samples[31:0]</obj_property>
+         <obj_property name="ObjectShortName">max_samples[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axis_test_pattern_generator_v2_0_tb/DUT/AXI_SLAVE_REGS/transaction_done">
+         <obj_property name="ElementShortName">transaction_done</obj_property>
+         <obj_property name="ObjectShortName">transaction_done</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/axis_test_pattern_generator_v2_0_tb/DUT/AXI_SLAVE_REGS/bram_max_addr">
+         <obj_property name="ElementShortName">bram_max_addr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">bram_max_addr[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group63">
+      <obj_property name="label">AXI Lite Slave Regs</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/axis_test_pattern_generator_v2_0_tb/DUT/AXI_SLAVE_REGS/s_axi_awaddr">
+         <obj_property name="ElementShortName">s_axi_awaddr[5:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_awaddr[5:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/axis_test_pattern_generator_v2_0_tb/DUT/AXI_SLAVE_REGS/s_axi_awprot">
+         <obj_property name="ElementShortName">s_axi_awprot[2:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_awprot[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axis_test_pattern_generator_v2_0_tb/DUT/AXI_SLAVE_REGS/s_axi_awvalid">
+         <obj_property name="ElementShortName">s_axi_awvalid</obj_property>
+         <obj_property name="ObjectShortName">s_axi_awvalid</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axis_test_pattern_generator_v2_0_tb/DUT/AXI_SLAVE_REGS/s_axi_awready">
+         <obj_property name="ElementShortName">s_axi_awready</obj_property>
+         <obj_property name="ObjectShortName">s_axi_awready</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axis_test_pattern_generator_v2_0_tb/DUT/AXI_SLAVE_REGS/s_axi_wvalid">
+         <obj_property name="ElementShortName">s_axi_wvalid</obj_property>
+         <obj_property name="ObjectShortName">s_axi_wvalid</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axis_test_pattern_generator_v2_0_tb/DUT/AXI_SLAVE_REGS/s_axi_wready">
+         <obj_property name="ElementShortName">s_axi_wready</obj_property>
+         <obj_property name="ObjectShortName">s_axi_wready</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axis_test_pattern_generator_v2_0_tb/DUT/AXI_SLAVE_REGS/s_axi_bvalid">
+         <obj_property name="ElementShortName">s_axi_bvalid</obj_property>
+         <obj_property name="ObjectShortName">s_axi_bvalid</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axis_test_pattern_generator_v2_0_tb/DUT/AXI_SLAVE_REGS/s_axi_bready">
+         <obj_property name="ElementShortName">s_axi_bready</obj_property>
+         <obj_property name="ObjectShortName">s_axi_bready</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/axis_test_pattern_generator_v2_0_tb/DUT/AXI_SLAVE_REGS/s_axi_wdata">
+         <obj_property name="ElementShortName">s_axi_wdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_wdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/axis_test_pattern_generator_v2_0_tb/DUT/AXI_SLAVE_REGS/s_axi_wstrb">
+         <obj_property name="ElementShortName">s_axi_wstrb[3:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_wstrb[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/axis_test_pattern_generator_v2_0_tb/DUT/AXI_SLAVE_REGS/s_axi_bresp">
+         <obj_property name="ElementShortName">s_axi_bresp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_bresp[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/axis_test_pattern_generator_v2_0_tb/DUT/AXI_SLAVE_REGS/s_axi_araddr">
+         <obj_property name="ElementShortName">s_axi_araddr[5:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_araddr[5:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/axis_test_pattern_generator_v2_0_tb/DUT/AXI_SLAVE_REGS/s_axi_arprot">
+         <obj_property name="ElementShortName">s_axi_arprot[2:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_arprot[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axis_test_pattern_generator_v2_0_tb/DUT/AXI_SLAVE_REGS/s_axi_arvalid">
+         <obj_property name="ElementShortName">s_axi_arvalid</obj_property>
+         <obj_property name="ObjectShortName">s_axi_arvalid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axis_test_pattern_generator_v2_0_tb/DUT/AXI_SLAVE_REGS/s_axi_arready">
+         <obj_property name="ElementShortName">s_axi_arready</obj_property>
+         <obj_property name="ObjectShortName">s_axi_arready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/axis_test_pattern_generator_v2_0_tb/DUT/AXI_SLAVE_REGS/s_axi_rdata">
+         <obj_property name="ElementShortName">s_axi_rdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_rdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/axis_test_pattern_generator_v2_0_tb/DUT/AXI_SLAVE_REGS/s_axi_rresp">
+         <obj_property name="ElementShortName">s_axi_rresp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_rresp[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axis_test_pattern_generator_v2_0_tb/DUT/AXI_SLAVE_REGS/s_axi_rvalid">
+         <obj_property name="ElementShortName">s_axi_rvalid</obj_property>
+         <obj_property name="ObjectShortName">s_axi_rvalid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axis_test_pattern_generator_v2_0_tb/DUT/AXI_SLAVE_REGS/s_axi_rready">
+         <obj_property name="ElementShortName">s_axi_rready</obj_property>
+         <obj_property name="ObjectShortName">s_axi_rready</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group121">
+      <obj_property name="label">AXI BRAM CTRL</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/axis_test_pattern_generator_v2_0_tb/sendItBRAM">
+         <obj_property name="ElementShortName">sendItBRAM</obj_property>
+         <obj_property name="ObjectShortName">sendItBRAM</obj_property>
+         <obj_property name="CustomSignalColor">#00FF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/axis_test_pattern_generator_v2_0_tb/DUT/s_axi_bram_awprot">
+         <obj_property name="ElementShortName">s_axi_bram_awprot[2:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_bram_awprot[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axis_test_pattern_generator_v2_0_tb/DUT/s_axi_bram_awvalid">
+         <obj_property name="ElementShortName">s_axi_bram_awvalid</obj_property>
+         <obj_property name="ObjectShortName">s_axi_bram_awvalid</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axis_test_pattern_generator_v2_0_tb/DUT/s_axi_bram_awready">
+         <obj_property name="ElementShortName">s_axi_bram_awready</obj_property>
+         <obj_property name="ObjectShortName">s_axi_bram_awready</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axis_test_pattern_generator_v2_0_tb/DUT/s_axi_bram_wvalid">
+         <obj_property name="ElementShortName">s_axi_bram_wvalid</obj_property>
+         <obj_property name="ObjectShortName">s_axi_bram_wvalid</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axis_test_pattern_generator_v2_0_tb/DUT/s_axi_bram_wready">
+         <obj_property name="ElementShortName">s_axi_bram_wready</obj_property>
+         <obj_property name="ObjectShortName">s_axi_bram_wready</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axis_test_pattern_generator_v2_0_tb/DUT/s_axi_bram_bvalid">
+         <obj_property name="ElementShortName">s_axi_bram_bvalid</obj_property>
+         <obj_property name="ObjectShortName">s_axi_bram_bvalid</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axis_test_pattern_generator_v2_0_tb/DUT/s_axi_bram_bready">
+         <obj_property name="ElementShortName">s_axi_bram_bready</obj_property>
+         <obj_property name="ObjectShortName">s_axi_bram_bready</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/axis_test_pattern_generator_v2_0_tb/DUT/s_axi_bram_wstrb">
+         <obj_property name="ElementShortName">s_axi_bram_wstrb[3:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_bram_wstrb[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/axis_test_pattern_generator_v2_0_tb/DUT/s_axi_bram_bresp">
+         <obj_property name="ElementShortName">s_axi_bram_bresp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_bram_bresp[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/axis_test_pattern_generator_v2_0_tb/DUT/s_axi_bram_awaddr">
+         <obj_property name="ElementShortName">s_axi_bram_awaddr[15:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_bram_awaddr[15:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/axis_test_pattern_generator_v2_0_tb/DUT/s_axi_bram_wdata">
+         <obj_property name="ElementShortName">s_axi_bram_wdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_bram_wdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/axis_test_pattern_generator_v2_0_tb/DUT/s_axi_bram_araddr">
+         <obj_property name="ElementShortName">s_axi_bram_araddr[15:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_bram_araddr[15:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/axis_test_pattern_generator_v2_0_tb/DUT/s_axi_bram_rdata">
+         <obj_property name="ElementShortName">s_axi_bram_rdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_bram_rdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/axis_test_pattern_generator_v2_0_tb/DUT/s_axi_bram_arprot">
+         <obj_property name="ElementShortName">s_axi_bram_arprot[2:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_bram_arprot[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axis_test_pattern_generator_v2_0_tb/DUT/s_axi_bram_arvalid">
+         <obj_property name="ElementShortName">s_axi_bram_arvalid</obj_property>
+         <obj_property name="ObjectShortName">s_axi_bram_arvalid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axis_test_pattern_generator_v2_0_tb/DUT/s_axi_bram_arready">
+         <obj_property name="ElementShortName">s_axi_bram_arready</obj_property>
+         <obj_property name="ObjectShortName">s_axi_bram_arready</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axis_test_pattern_generator_v2_0_tb/DUT/s_axi_bram_rvalid">
+         <obj_property name="ElementShortName">s_axi_bram_rvalid</obj_property>
+         <obj_property name="ObjectShortName">s_axi_bram_rvalid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axis_test_pattern_generator_v2_0_tb/DUT/s_axi_bram_rready">
+         <obj_property name="ElementShortName">s_axi_bram_rready</obj_property>
+         <obj_property name="ObjectShortName">s_axi_bram_rready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/axis_test_pattern_generator_v2_0_tb/DUT/s_axi_bram_rresp">
+         <obj_property name="ElementShortName">s_axi_bram_rresp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_bram_rresp[1:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group87">
+      <obj_property name="label">BRAM Ports</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="group" fp_name="group129">
+         <obj_property name="label">CTRL &lt;-&gt; Port A</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="logic" fp_name="/axis_test_pattern_generator_v2_0_tb/DUT/BRAM/clka">
+            <obj_property name="ElementShortName">clka</obj_property>
+            <obj_property name="ObjectShortName">clka</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/axis_test_pattern_generator_v2_0_tb/DUT/BRAM/rsta">
+            <obj_property name="ElementShortName">rsta</obj_property>
+            <obj_property name="ObjectShortName">rsta</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/axis_test_pattern_generator_v2_0_tb/DUT/BRAM/ena">
+            <obj_property name="ElementShortName">ena</obj_property>
+            <obj_property name="ObjectShortName">ena</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/axis_test_pattern_generator_v2_0_tb/DUT/BRAM/wea">
+            <obj_property name="ElementShortName">wea[3:0]</obj_property>
+            <obj_property name="ObjectShortName">wea[3:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/axis_test_pattern_generator_v2_0_tb/DUT/BRAM_CTRL/bram_addr_a">
+            <obj_property name="ElementShortName">bram_addr_a[15:0]</obj_property>
+            <obj_property name="ObjectShortName">bram_addr_a[15:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/axis_test_pattern_generator_v2_0_tb/DUT/BRAM/addra">
+            <obj_property name="ElementShortName">addra[31:0]</obj_property>
+            <obj_property name="ObjectShortName">addra[31:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/axis_test_pattern_generator_v2_0_tb/DUT/BRAM/dina">
+            <obj_property name="ElementShortName">dina[31:0]</obj_property>
+            <obj_property name="ObjectShortName">dina[31:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/axis_test_pattern_generator_v2_0_tb/DUT/BRAM/douta">
+            <obj_property name="ElementShortName">douta[31:0]</obj_property>
+            <obj_property name="ObjectShortName">douta[31:0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/axis_test_pattern_generator_v2_0_tb/DUT/BRAM/rsta_busy">
+            <obj_property name="ElementShortName">rsta_busy</obj_property>
+            <obj_property name="ObjectShortName">rsta_busy</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="group138">
+         <obj_property name="label">IP &lt;-&gt; Port B</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="logic" fp_name="/axis_test_pattern_generator_v2_0_tb/DUT/BRAM/clkb">
+            <obj_property name="ElementShortName">clkb</obj_property>
+            <obj_property name="ObjectShortName">clkb</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/axis_test_pattern_generator_v2_0_tb/DUT/BRAM/enb">
+            <obj_property name="ElementShortName">enb</obj_property>
+            <obj_property name="ObjectShortName">enb</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/axis_test_pattern_generator_v2_0_tb/DUT/BRAM/web">
+            <obj_property name="ElementShortName">web[3:0]</obj_property>
+            <obj_property name="ObjectShortName">web[3:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/axis_test_pattern_generator_v2_0_tb/DUT/BRAM/addrb">
+            <obj_property name="ElementShortName">addrb[31:0]</obj_property>
+            <obj_property name="ObjectShortName">addrb[31:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/axis_test_pattern_generator_v2_0_tb/DUT/BRAM/dinb">
+            <obj_property name="ElementShortName">dinb[31:0]</obj_property>
+            <obj_property name="ObjectShortName">dinb[31:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/axis_test_pattern_generator_v2_0_tb/DUT/BRAM/doutb">
+            <obj_property name="ElementShortName">doutb[31:0]</obj_property>
+            <obj_property name="ObjectShortName">doutb[31:0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/axis_test_pattern_generator_v2_0_tb/DUT/BRAM/rstb_busy">
+            <obj_property name="ElementShortName">rstb_busy</obj_property>
+            <obj_property name="ObjectShortName">rstb_busy</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group298">
+      <obj_property name="label">BRAM port B internal signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/axis_test_pattern_generator_v2_0_tb/DUT/bram_mode">
+         <obj_property name="ElementShortName">bram_mode</obj_property>
+         <obj_property name="ObjectShortName">bram_mode</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axis_test_pattern_generator_v2_0_tb/DUT/BRAM/clkb">
+         <obj_property name="ElementShortName">clkb</obj_property>
+         <obj_property name="ObjectShortName">clkb</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axis_test_pattern_generator_v2_0_tb/DUT/bram_en_b">
+         <obj_property name="ElementShortName">bram_en_b</obj_property>
+         <obj_property name="ObjectShortName">bram_en_b</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/axis_test_pattern_generator_v2_0_tb/DUT/bram_max_addr">
+         <obj_property name="ElementShortName">bram_max_addr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">bram_max_addr[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/axis_test_pattern_generator_v2_0_tb/DUT/bram_addr_b">
+         <obj_property name="ElementShortName">bram_addr_b[31:0]</obj_property>
+         <obj_property name="ObjectShortName">bram_addr_b[31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/axis_test_pattern_generator_v2_0_tb/DUT/bram_wrdata_b">
+         <obj_property name="ElementShortName">bram_wrdata_b[31:0]</obj_property>
+         <obj_property name="ObjectShortName">bram_wrdata_b[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/axis_test_pattern_generator_v2_0_tb/DUT/bram_rddata_b">
+         <obj_property name="ElementShortName">bram_rddata_b[31:0]</obj_property>
+         <obj_property name="ObjectShortName">bram_rddata_b[31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group22">
+      <obj_property name="label">m_axis_output</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/axis_test_pattern_generator_v2_0_tb/DUT/m_axis_tvalid">
+         <obj_property name="ElementShortName">m_axis_tvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axis_tvalid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/axis_test_pattern_generator_v2_0_tb/DUT/m_axis_tdata">
+         <obj_property name="ElementShortName">m_axis_tdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_tdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axis_test_pattern_generator_v2_0_tb/DUT/m_axis_tready">
+         <obj_property name="ElementShortName">m_axis_tready</obj_property>
+         <obj_property name="ObjectShortName">m_axis_tready</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

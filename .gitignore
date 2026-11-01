@@ -1,0 +1,8 @@
+# Generated Vivado project and build outputs
+build/
+output/
+.Xil/
+*.jou
+*.log
+*.str
+*.tv

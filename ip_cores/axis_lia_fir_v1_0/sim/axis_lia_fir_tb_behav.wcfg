@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="axis_lia_fir_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="axis_lia_fir_tb" />
+            <top_module name="tb_utils_pkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="167936001fs"></ZoomEndTime>
+      <Cursor1Time time="167936000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="286"></NameColumnWidth>
+      <ValueColumnWidth column_width="128"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="4" />
+   <wvobject type="other" fp_name="/axis_lia_fir_tb/testcase">
+      <obj_property name="ElementShortName">testcase</obj_property>
+      <obj_property name="ObjectShortName">testcase</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group76">
+      <obj_property name="label">S_AXIS_RELOAD</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group46">
+      <obj_property name="label">S_AXIS</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/axis_lia_fir_tb/s_axis_i_tready">
+         <obj_property name="ElementShortName">s_axis_i_tready</obj_property>
+         <obj_property name="ObjectShortName">s_axis_i_tready</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axis_lia_fir_tb/s_axis_i_tvalid">
+         <obj_property name="ElementShortName">s_axis_i_tvalid</obj_property>
+         <obj_property name="ObjectShortName">s_axis_i_tvalid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/axis_lia_fir_tb/s_axis_i_tdata">
+         <obj_property name="ElementShortName">s_axis_i_tdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axis_i_tdata[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+         <obj_property name="CellHeight">100</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axis_lia_fir_tb/s_axis_q_tready">
+         <obj_property name="ElementShortName">s_axis_q_tready</obj_property>
+         <obj_property name="ObjectShortName">s_axis_q_tready</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axis_lia_fir_tb/s_axis_q_tvalid">
+         <obj_property name="ElementShortName">s_axis_q_tvalid</obj_property>
+         <obj_property name="ObjectShortName">s_axis_q_tvalid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/axis_lia_fir_tb/s_axis_q_tdata">
+         <obj_property name="ElementShortName">s_axis_q_tdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axis_q_tdata[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+         <obj_property name="CellHeight">100</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group39">
+      <obj_property name="label">M_AXIS</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/axis_lia_fir_tb/m_axis_tready">
+         <obj_property name="ElementShortName">m_axis_tready</obj_property>
+         <obj_property name="ObjectShortName">m_axis_tready</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axis_lia_fir_tb/m_axis_tvalid">
+         <obj_property name="ElementShortName">m_axis_tvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axis_tvalid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/axis_lia_fir_tb/FIR/i_filt">
+         <obj_property name="ElementShortName">i_filt[31:0]</obj_property>
+         <obj_property name="ObjectShortName">i_filt[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+         <obj_property name="CellHeight">100</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/axis_lia_fir_tb/FIR/q_filt">
+         <obj_property name="ElementShortName">q_filt[31:0]</obj_property>
+         <obj_property name="ObjectShortName">q_filt[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+         <obj_property name="CellHeight">100</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/axis_lia_fir_tb/m_axis_tdata">
+         <obj_property name="ElementShortName">m_axis_tdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_tdata[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+         <obj_property name="CellHeight">100</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
