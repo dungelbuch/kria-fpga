@@ -98,7 +98,8 @@ It always builds from scratch and writes:
   warnings and errors, and the output files
 
 Like `make impl`, it stops before the bitstream if timing is not met. The
-summary is printed in that case too. The log is `build/logs/nonproject.log`.
+summary is printed in that case too. Only the step names, errors and the
+summary are shown in the terminal, the full log is `build/logs/nonproject.log`.
 
 Changes made in the GUI are not saved back to `src/bd/kr260_ps.tcl`. To keep a
 block design change, update that file (or export it with `write_bd_tcl`) and run

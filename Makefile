@@ -93,10 +93,15 @@ $(BUILD)/sim_cores/%_sim/.done: scripts/core_sim.tcl $(COMMON_TCL) $$(wildcard i
 	$(call vivado,sim_$*,core_sim.tcl,$*)
 	touch $@
 
-# Non-project build, always runs from scratch; summary in build/nonproject/summary.txt
+# Non-project build, always runs from scratch; summary in build/nonproject/summary.txt.
+# Only the step headers, errors and the summary are shown, the full output is in the log.
+nonproject: SHELL = /bin/bash
+nonproject: .SHELLFLAGS = -o pipefail -c
 nonproject: $(CORE_TARGETS)
 	@mkdir -p $(LOGS)
-	$(call vivado,nonproject,nonproject.tcl)
+	@echo "Non-project build, full log in $(LOGS)/nonproject.log"
+	@$(call vivado,nonproject,nonproject.tcl) | awk '/^Non-project build summary:/ { on = 1; print prev } \
+		on && !/^INFO:/ || /^######## .* ########$$/ || /^ERROR:/ { print; fflush() } { prev = $$0 }'
 
 gui: $(PROJECT_STAMP)
 	bash -c '. $(VIVADO_SETTINGS) && cd $(BUILD) && vivado -nojournal -nolog $(PROJ_NAME).xpr &'
