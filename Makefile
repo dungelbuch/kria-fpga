@@ -8,6 +8,7 @@
 #   make bit            write the bitstream (.bit, .bit.bin) to output/
 #   make xsa            export the hardware platform (XSA) for Vitis/PetaLinux to output/
 #   make sim-cores      create simulation projects for the cores listed in SIM_CORES
+#   make nonproject     build bitstream and XSA in non-project mode into output/nonproject/, with a summary
 #   make gui            open the project in the Vivado GUI
 #
 # Each step runs the steps before it if they are missing or out of date.
@@ -46,7 +47,7 @@ IMPL_STAMP = $(BUILD)/.impl.done
 BIT = $(OUTPUT)/$(PROJ_NAME).bit
 XSA = $(OUTPUT)/$(PROJ_NAME).xsa
 
-.PHONY: all cores project synth impl bit xsa sim-cores gui \
+.PHONY: all cores project synth impl bit xsa sim-cores nonproject gui \
 	clean clean-cores clean-project clean-synth clean-impl clean-sim
 .DELETE_ON_ERROR:
 .SECONDEXPANSION:
@@ -91,6 +92,11 @@ $(BUILD)/sim_cores/%_sim/.done: scripts/core_sim.tcl $(COMMON_TCL) $$(wildcard i
 	@mkdir -p $(LOGS)
 	$(call vivado,sim_$*,core_sim.tcl,$*)
 	touch $@
+
+# Non-project build, always runs from scratch; summary in build/nonproject/summary.txt
+nonproject: $(CORE_TARGETS)
+	@mkdir -p $(LOGS)
+	$(call vivado,nonproject,nonproject.tcl)
 
 gui: $(PROJECT_STAMP)
 	bash -c '. $(VIVADO_SETTINGS) && cd $(BUILD) && vivado -nojournal -nolog $(PROJ_NAME).xpr &'

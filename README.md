@@ -78,6 +78,28 @@ with `make VIVADO_SETTINGS=<path>`.
 The XSA in `output/` includes the bitstream and can be used as the hardware
 platform in Vitis or PetaLinux.
 
+### Non-project mode
+
+```
+make nonproject
+```
+
+builds the same design without a Vivado project
+([scripts/nonproject.tcl](scripts/nonproject.tcl)): the block design, HDL and
+constraints are read into memory and taken through synthesis, implementation,
+bitstream and XSA export, with the same directives as the project strategies.
+It always builds from scratch and writes:
+
+- `output/nonproject/`: `kr260_ps.bit`, `kr260_ps.bit.bin`, `kr260_ps.xsa`
+- `build/nonproject/`: checkpoints after synthesis, placement and routing
+  (open them with `open_checkpoint`), reports in `reports/`
+- `build/nonproject/summary.txt`: the summary printed at the end, with the
+  time per step, timing (WNS/WHS), utilization, power, the number of critical
+  warnings and errors, and the output files
+
+Like `make impl`, it stops before the bitstream if timing is not met. The
+summary is printed in that case too. The log is `build/logs/nonproject.log`.
+
 Changes made in the GUI are not saved back to `src/bd/kr260_ps.tcl`. To keep a
 block design change, update that file (or export it with `write_bd_tcl`) and run
 `make clean-project && make`.
