@@ -1,6 +1,7 @@
 # Generated Vivado project and build outputs
 build/
 output/
+.venv/
 .Xil/
 *.jou
 *.log
