@@ -7,12 +7,9 @@
 # Stop on the first failing command
 set -e
 
-SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-
 # Assign parameters
-XSETUP="${1:-$HOME/Downloads/FPGAs_AdaptiveSoCs_Unified_SDI_2025.2_1114_2157/xsetup}"
-CONFIG_FILE="${2:-$SCRIPT_DIR/install_config.txt}"
-VERSION="2025.2"
+XSETUP="$1"
+CONFIG_FILE="$2"
 
 # Check if the files actually exist
 if [ ! -f "$XSETUP" ]; then
@@ -27,7 +24,8 @@ if [ ! -f "$CONFIG_FILE" ]; then
 fi
 
 # Prepare the root /tools directory so the non-root installer can write to it
-DEST_DIR="/tools/Xilinx"
+VERSION="2025.2"
+DEST_DIR="/opt/tools/Xilinx"
 INSTALL_DIR="$DEST_DIR/$VERSION"
 
 # Make sure the config installs to the same place this script expects
